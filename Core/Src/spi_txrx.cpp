@@ -3,7 +3,7 @@ extern "C" {
 #endif
 
 #include <math.h>
-#include "spi_txrx.h"
+#include "imu.h"
 #include "spi.h"
 #include "main.h"
 #include "stm32f4xx_hal.h"

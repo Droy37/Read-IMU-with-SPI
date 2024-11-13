@@ -1,5 +1,5 @@
-#ifndef SPI_TXRX_H
-#define SPI_TXRX_H
+#ifndef IMU_H
+#define IMU_H
 #include <stdint.h>
 
 
@@ -13,4 +13,4 @@ void BMI088_WriteReg(uint8_t reg, uint8_t write_data);
 
 void BMI088_Init();
 
-#endif //SPI_TXRX_H
+#endif //IMU_H
